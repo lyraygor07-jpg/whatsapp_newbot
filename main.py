@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"mensagem": "Servidor funcionando!"}
+    return {"mensagem": "Servidor está funcionando!"}
